@@ -10,8 +10,20 @@ package net.anumbrella.notes.data;
 public class Notes {
 
 	/**
+	 * 设置便签的类型
+	 */
+	public static final int TYPE_NOTE = 0;
+	public static final int TYPE_FOLDER = 1;
+	public static final int TYPE_SYSTEM = 2;
+
+	/**
 	 * 默认文件夹标识
 	 */
 	public static final int ID_ROOT_FOLDER = 0;
+
+	/**
+	 * 通话便签文件夹标识
+	 */
+	public static final int ID_CALL_RECORD_FOLDER = -2;
 
 }

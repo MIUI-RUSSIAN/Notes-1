@@ -28,13 +28,14 @@ public final class R {
         public static final int text_font_size_small=0x7f050002;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int list_background=0x7f020001;
-        public static final int list_footer_bg=0x7f020002;
-        public static final int new_note=0x7f020003;
-        public static final int new_note_normal=0x7f020004;
-        public static final int new_note_pressed=0x7f020005;
-        public static final int title_bar_bg=0x7f020006;
+        public static final int call_record=0x7f020000;
+        public static final int ic_launcher=0x7f020001;
+        public static final int list_background=0x7f020002;
+        public static final int list_footer_bg=0x7f020003;
+        public static final int new_note=0x7f020004;
+        public static final int new_note_normal=0x7f020005;
+        public static final int new_note_pressed=0x7f020006;
+        public static final int title_bar_bg=0x7f020007;
     }
     public static final class id {
         public static final int action_settings=0x7f090008;
@@ -58,6 +59,10 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f060002;
         public static final int app_name=0x7f060000;
+        public static final int call_record_folder_name=0x7f060003;
+        /**  便签列表参数 
+         */
+        public static final int format_folder_files_count=0x7f060004;
         public static final int hello_world=0x7f060001;
     }
     public static final class style {

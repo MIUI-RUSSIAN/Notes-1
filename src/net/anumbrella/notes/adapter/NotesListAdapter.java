@@ -15,6 +15,18 @@ import android.view.ViewGroup;
  */
 public class NotesListAdapter extends CursorAdapter {
 
+	private Context context;
+
+	/**
+	 * 便签选择类型(单个选择or多个同时选择)
+	 */
+	private boolean mChoiceMode;
+
+	/**
+	 * 便签数目
+	 */
+	private int mNotesCount;
+
 	public NotesListAdapter(Context context, Cursor c) {
 		super(context, c);
 	}

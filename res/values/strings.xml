@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- 英文字体 -->
 <resources>
 
     <string name="app_name">MIUI_Notes</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="call_record_folder_name">Call notes</string>
+
+    <!-- 便签列表参数 -->
+    <string name="format_folder_files_count">(%d)</string>
 
 </resources>
